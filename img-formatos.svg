@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Cápsulas, polvos o líquidos">
+<rect width="400" height="300" rx="10" fill="#F2F9FA"/>
+<g transform="rotate(-20 105 150)"><rect x="70" y="135" width="70" height="34" rx="17" fill="#009BA5" stroke="#00747C" stroke-width="6"/><rect x="70" y="135" width="35" height="34" rx="17" fill="#FFFFFF" stroke="#00747C" stroke-width="6"/></g>
+<g stroke="#00747C" stroke-width="6" fill="#FFFFFF" stroke-linecap="round">
+<path d="M170 210 q0 14 14 14 h36 q14 0 14 -14 v-52 q0 -10 -8 -16 v-30 h-48 v30 q-8 6 -8 16 z"/>
+<rect x="176" y="104" width="52" height="12" rx="4" fill="#00747C"/>
+</g>
+<path d="M176 176 h52 v34 q0 8 -8 8 h-36 q-8 0 -8 -8 z" fill="#9ED9DE"/>
+<g stroke="#00747C" stroke-width="6" fill="#E4F6F7" stroke-linejoin="round">
+<path d="M290 120 h60 l-8 96 q-1 10 -11 10 h-22 q-10 0 -11 -10 z"/>
+</g>
+<path d="M294 150 h52 l-5 62 q-1 8 -9 8 h-24 q-8 0 -9 -8 z" fill="#009BA5"/>
+<g fill="#009BA5"><circle cx="150" cy="90" r="6"/><circle cx="168" cy="72" r="4"/><circle cx="185" cy="88" r="5"/></g>
+</svg>

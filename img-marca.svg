@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Lanza tu marca propia">
+<rect width="400" height="300" rx="10" fill="#F2F9FA"/>
+<g stroke="#00747C" stroke-width="6" fill="#FFFFFF" stroke-linecap="round">
+<rect x="150" y="72" width="100" height="158" rx="16"/>
+<rect x="140" y="52" width="120" height="26" rx="8" fill="#00747C"/>
+<rect x="162" y="115" width="76" height="52" rx="6" fill="#E4F6F7" stroke="#009BA5" stroke-width="3"/>
+</g>
+<path d="M180 148 l10 12 l22 -26" stroke="#009BA5" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke="#009BA5" stroke-width="5" fill="#9ED9DE" stroke-linecap="round">
+<path d="M85 210 l22 -46 l22 46 z"/>
+<circle cx="107" cy="176" r="12" fill="#FFFFFF"/>
+</g>
+<g stroke="#00747C" stroke-width="5" stroke-linecap="round"><line x1="96" y1="222" x2="88" y2="238"/><line x1="107" y1="224" x2="107" y2="242"/><line x1="118" y1="222" x2="126" y2="238"/></g>
+<g fill="#009BA5"><circle cx="312" cy="92" r="7"/><circle cx="334" cy="120" r="5"/><circle cx="316" cy="148" r="6"/></g>
+<path d="M290 230 q30 -60 60 -96" stroke="#00747C" stroke-width="5" fill="none" stroke-dasharray="2 12" stroke-linecap="round"/>
+</svg>
