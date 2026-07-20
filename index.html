@@ -103,7 +103,23 @@
   /* ===== NAV ===== */
   nav{position:sticky;top:0;background:rgba(251,253,253,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:50}
   .navin{display:flex;align-items:center;justify-content:space-between;height:64px}
-  .logo{font-family:'Archivo',sans-serif;font-weight:900;font-size:1.25rem;color:var(--teal-dark);text-decoration:none;letter-spacing:-.02em}
+.logo {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: var(--teal-dark);
+  text-decoration: none;
+  letter-spacing: -.02em;
+  display: inline-block;
+  height: 50px;
+  width: auto;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
   .logo span{color:var(--ink)}
   .navlinks{display:flex;gap:28px;align-items:center}
   .navlinks a{text-decoration:none;color:var(--gray);font-size:.9rem;font-weight:500}
