@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Checklist de etiquetado">
+<rect width="400" height="300" rx="10" fill="#F2F9FA"/>
+<g stroke="#00747C" stroke-width="6" fill="#FFFFFF">
+<rect x="120" y="50" width="160" height="200" rx="12"/>
+<rect x="165" y="36" width="70" height="26" rx="8" fill="#00747C"/>
+</g>
+<g stroke="#009BA5" stroke-width="4" fill="#E4F6F7">
+<rect x="142" y="86" width="22" height="22" rx="5"/><rect x="142" y="126" width="22" height="22" rx="5"/><rect x="142" y="166" width="22" height="22" rx="5"/><rect x="142" y="206" width="22" height="22" rx="5" fill="#FFFFFF"/>
+</g>
+<g stroke="#00747C" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M146 96 l6 7 l11 -13"/><path d="M146 136 l6 7 l11 -13"/><path d="M146 176 l6 7 l11 -13"/>
+</g>
+<g stroke="#9ED9DE" stroke-width="8" stroke-linecap="round">
+<line x1="178" y1="97" x2="258" y2="97"/><line x1="178" y1="137" x2="258" y2="137"/><line x1="178" y1="177" x2="258" y2="177"/><line x1="178" y1="217" x2="240" y2="217"/>
+</g>
+<g transform="rotate(30 310 220)"><rect x="292" y="180" width="36" height="70" rx="6" fill="#009BA5" stroke="#00747C" stroke-width="5"/><path d="M292 250 l18 22 l18 -22 z" fill="#FFCF9E" stroke="#00747C" stroke-width="5" stroke-linejoin="round"/></g>
+</svg>

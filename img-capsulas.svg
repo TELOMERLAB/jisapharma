@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" rx="10" fill="#F2F9FA"/>
+<g stroke="#00747C" stroke-width="6" fill="#FFFFFF" stroke-linecap="round">
+<rect x="150" y="60" width="100" height="150" rx="16"/>
+<rect x="140" y="42" width="120" height="26" rx="8" fill="#00747C"/>
+<rect x="162" y="105" width="76" height="42" rx="6" fill="#E4F6F7" stroke="#009BA5" stroke-width="3"/>
+</g>
+<g stroke="#00747C" stroke-width="5" stroke-linecap="round">
+<g transform="rotate(-25 90 215)"><rect x="60" y="200" width="60" height="30" rx="15" fill="#009BA5"/><rect x="60" y="200" width="30" height="30" rx="15" fill="#FFFFFF"/></g>
+<g transform="rotate(15 310 220)"><rect x="280" y="205" width="60" height="30" rx="15" fill="#009BA5"/><rect x="310" y="205" width="30" height="30" rx="15" fill="#FFFFFF"/></g>
+<circle cx="82" cy="120" r="17" fill="#E4F6F7"/>
+<circle cx="325" cy="110" r="17" fill="#E4F6F7"/><line x1="314" y1="110" x2="336" y2="110" stroke="#009BA5" stroke-width="4"/>
+</g>
+<text x="200" y="135" font-family="Arial" font-size="13" fill="#00747C" text-anchor="middle" font-weight="bold">JISA</text>
+</svg>

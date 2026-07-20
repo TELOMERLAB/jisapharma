@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Costos de maquila">
+<rect width="400" height="300" rx="10" fill="#F2F9FA"/>
+<g stroke="#00747C" stroke-width="6" fill="#FFFFFF" stroke-linecap="round">
+<rect x="70" y="70" width="130" height="170" rx="14"/>
+<rect x="88" y="92" width="94" height="34" rx="6" fill="#E4F6F7" stroke="#009BA5" stroke-width="3"/>
+</g>
+<g fill="#009BA5">
+<rect x="88" y="142" width="26" height="26" rx="6"/><rect x="122" y="142" width="26" height="26" rx="6"/><rect x="156" y="142" width="26" height="26" rx="6"/>
+<rect x="88" y="176" width="26" height="26" rx="6"/><rect x="122" y="176" width="26" height="26" rx="6"/><rect x="156" y="176" width="26" height="26" rx="6" fill="#00747C"/>
+</g>
+<g stroke="#00747C" stroke-width="6" fill="#9ED9DE">
+<circle cx="290" cy="120" r="42"/>
+<circle cx="318" cy="160" r="42" fill="#FFFFFF"/>
+</g>
+<text x="290" y="132" font-family="monospace" font-size="30" font-weight="bold" fill="#00747C" text-anchor="middle">$</text>
+<text x="318" y="172" font-family="monospace" font-size="30" font-weight="bold" fill="#009BA5" text-anchor="middle">$</text>
+<g transform="rotate(-20 285 225)"><rect x="255" y="210" width="60" height="30" rx="15" fill="#009BA5" stroke="#00747C" stroke-width="5"/><rect x="255" y="210" width="30" height="30" rx="15" fill="#FFFFFF" stroke="#00747C" stroke-width="5"/></g>
+</svg>
