@@ -63,6 +63,15 @@
     <button class="btn" type="submit"><span data-es>Enviar solicitud</span><span data-en>Send request</span></button>
   </form>
 </div></div></section>
+<section><div class="wrap">
+  <h2 data-es>¿Prefieres platicarlo? Agenda 15 minutos</h2>
+  <h2 data-en>Prefer to talk it through? Book 15 minutes</h2>
+  <p class="lede" style="margin-bottom:22px">
+    <span data-es>Cuéntanos los antecedentes de tu proyecto en el formulario de arriba y agenda una llamada corta para revisarlo juntos.</span>
+    <span data-en>Share your project background in the form above and book a short call to review it together.</span>
+  </p>
+  <div class="calendly-inline-widget" data-url="https://calendly.com/iortega-telomerlab/30min" style="min-width:320px;height:700px"></div>
+</div></section>
 <footer><div class="wrap">
   <div class="f-grid">
     <div>
@@ -95,4 +104,5 @@
 function toggleLang(){const h=document.documentElement;const e=h.classList.toggle('en');h.lang=e?'en':'es';try{localStorage.setItem('jp-lang',e?'en':'es')}catch(x){}}
 (function(){const p=new URLSearchParams(location.search).get('lang');let s=null;try{s=localStorage.getItem('jp-lang')}catch(x){};const n=(navigator.language||'').toLowerCase().startsWith('es')?'es':'en';if((p||s||n)==='en'){document.documentElement.classList.add('en');document.documentElement.lang='en'}})();
 </script>
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body></html>
