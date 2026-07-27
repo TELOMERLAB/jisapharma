@@ -77,25 +77,25 @@
   </div>
   <div class="eq-grid">
     <div class="eq-card">
-      <img class="styled" src="equipo-encapsuladora-hf.jpg" alt="Encapsuladora Jisa Pharma" loading="lazy">
+      <video class="styled eq-video" muted loop playsinline preload="none" poster="equipo-encapsuladora-hf.jpg" data-src="equipo-encapsuladora.mp4" aria-label="Encapsuladora Jisa Pharma"></video>
       <span class="eq-tag mono">EQ-01</span>
       <div class="eq-label"><strong data-es>Encapsuladora</strong><strong data-en>Capsule filler</strong>
         <span data-es>Cápsulas y tabletas</span><span data-en>Capsules &amp; tablets</span></div>
     </div>
     <div class="eq-card">
-      <img class="styled" src="equipo-pantalon-hf.jpg" alt="Mezclador en V Jisa Pharma" loading="lazy">
+      <video class="styled eq-video" muted loop playsinline preload="none" poster="equipo-pantalon-hf.jpg" data-src="equipo-pantalon.mp4" aria-label="Mezclador en V Jisa Pharma"></video>
       <span class="eq-tag mono">EQ-02</span>
       <div class="eq-label"><strong data-es>Mezclador en V</strong><strong data-en>V-blender</strong>
         <span data-es>Homogeneizado de polvos</span><span data-en>Powder blending</span></div>
     </div>
     <div class="eq-card">
-      <img class="styled" src="equipo-mezclador-hf.jpg" alt="Cámara de proceso Jisa Pharma" loading="lazy">
+      <video class="styled eq-video" muted loop playsinline preload="none" poster="equipo-mezclador-hf.jpg" data-src="equipo-mezclador.mp4" aria-label="Cámara de proceso Jisa Pharma"></video>
       <span class="eq-tag mono">EQ-03</span>
       <div class="eq-label"><strong data-es>Cámara de proceso</strong><strong data-en>Process chamber</strong>
         <span data-es>Manejo de materia prima</span><span data-en>Raw material handling</span></div>
     </div>
     <div class="eq-card">
-      <img class="styled" src="equipo-gotero-hf.jpg" alt="Llenadora de líquidos Jisa Pharma" loading="lazy">
+      <video class="styled eq-video" muted loop playsinline preload="none" poster="equipo-gotero-hf.jpg" data-src="equipo-gotero.mp4" aria-label="Llenadora de líquidos Jisa Pharma"></video>
       <span class="eq-tag mono">EQ-04</span>
       <div class="eq-label"><strong data-es>Llenadora de líquidos</strong><strong data-en>Liquid filler</strong>
         <span data-es>Goteros y vitaminas líquidas</span><span data-en>Droppers &amp; liquid vitamins</span></div>
@@ -140,5 +140,20 @@
 <script>
 function toggleLang(){const h=document.documentElement;const e=h.classList.toggle('en');h.lang=e?'en':'es';try{localStorage.setItem('jp-lang',e?'en':'es')}catch(x){}}
 (function(){const p=new URLSearchParams(location.search).get('lang');let s=null;try{s=localStorage.getItem('jp-lang')}catch(x){};const n=(navigator.language||'').toLowerCase().startsWith('es')?'es':'en';if((p||s||n)==='en'){document.documentElement.classList.add('en');document.documentElement.lang='en'}})();
+(function(){
+  const videos = document.querySelectorAll('.eq-video[data-src]');
+  if (!videos.length) return;
+  if (!('IntersectionObserver' in window)) { videos.forEach(v=>{v.src=v.dataset.src; v.load();}); return; }
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if (entry.isIntersecting){
+        const v = entry.target;
+        if (!v.src){ v.src = v.dataset.src; v.load(); }
+        v.play().catch(()=>{});
+      }
+    });
+  }, {rootMargin:'200px 0px'});
+  videos.forEach(v=>io.observe(v));
+})();
 </script>
 </body></html>
